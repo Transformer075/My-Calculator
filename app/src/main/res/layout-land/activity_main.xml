@@ -21,11 +21,11 @@
         android:id="@+id/tvcontrol"
         android:layout_width="313dp"
         android:layout_height="82dp"
-        android:textSize="40sp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="451dp" />
+        android:layout_marginEnd="401dp"
+        android:layout_marginBottom="280dp"
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/btn0"
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="223dp"
+        android:layout_marginEnd="227dp"
         android:layout_marginBottom="11dp"
         android:text="*" />
 
@@ -83,8 +83,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="223dp"
-        android:layout_marginBottom="71dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="70dp"
         android:text="+" />
 
     <Button
@@ -183,7 +183,8 @@
         android:layout_height="82dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="575dp"
-        android:textSize="40sp" />
+        android:layout_marginEnd="402dp"
+        android:layout_marginBottom="114dp"
+        android:textSize="40sp"
+        android:visibility="visible" />
 </RelativeLayout>
